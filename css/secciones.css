@@ -27,8 +27,7 @@
 }
 
 .darker {
-    padding: 10% 0;
-    background: #FFFFFF url('../assets/logo_final.jpg') no-repeat center fixed;
+    padding: 10% 0;background: #FFFFFF url('../assets/logo_final.jpg') no-repeat center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,7 +37,7 @@
 }
 
 .darker p, h2, h3 {
-    color: black;
+    color: white;
 }
 
 .info {
