@@ -11,13 +11,13 @@
 }
 
 .full-height {
-    height: 100%;
-    padding: 15% 0%;
+    height: 70%;
+    padding: 35% 0%;
 }
 
-@media (max-width: 985px) {
+@media (min-width: 985px) {
     .full-height {
-        height: 70%;
+        height: 100%;
         padding: 15% 0%;
     }
 }
@@ -31,9 +31,9 @@
 }
 
 .darker {
-        padding: 10% 0;
-        background-color: #132F3E;
-    }
+    padding: 10% 0;
+    background-color: #132F3E;
+}
 
 .darker h2, p{
     color: white;
