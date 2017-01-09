@@ -2656,7 +2656,7 @@ i.large {
 
 img.responsive-img,
 video.responsive-video {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -4064,7 +4064,7 @@ nav .brand-logo {
   position: absolute;
   color: #fff;
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 1.3rem;
   padding: 0;
   white-space: nowrap;
 }
@@ -4186,7 +4186,7 @@ nav .input-field label.active {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 5%;
   z-index: 997;
 }
 
@@ -4196,7 +4196,7 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
+    height: 5.5%;
     line-height: 64px;
   }
   .navbar-fixed {
@@ -4281,6 +4281,14 @@ h1 {
   font-size: 4.2rem;
   line-height: 110%;
   margin: 2.1rem 0 1.68rem 0;
+}
+
+@media (max-width: 765px){
+  h1 {
+    font-size: 3rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+  }
 }
 
 h2 {
