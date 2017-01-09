@@ -87,11 +87,13 @@ footer .redes li{
 }
 footer .redes li:hover{
 	-webkit-box-shadow: 0 0 9px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 0 9px rgba(0,0,0,0.8);
 	box-shadow: 0 0 9px rgba(0,0,0,0.8);
 }
 footer .redes li,
 footer .redes li span{
 	-webkit-transition: 0.2s all ease-out;
+    -moz-transition: 0.2s all ease-out;
 	-o-transition: 0.2s all ease-out;
 	transition: 0.2s all ease-out;
 }
@@ -113,6 +115,7 @@ footer .redes li span{
 	background: #3b5998;
 	display: block;
 	-webkit-mask:  url(../img/facebool.svg) no-repeat 50% 50%;
+    -moz-mask:  url(../img/facebool.svg) no-repeat 50% 50%;
 	   mask: url(../img/facebool.svg) no-repeat 50% 50%;
 }
 .twitter span{
@@ -121,6 +124,7 @@ footer .redes li span{
 	background: #1DA1F2;
 	display: block;
 	-webkit-mask:  url(../img/twitter.svg) no-repeat 50% 50%;
+    -moz-mask:  url(../img/twitter.svg) no-repeat 50% 50%;
 	   mask: url(../img/twitter.svg) no-repeat 50% 50%;
 }
 
