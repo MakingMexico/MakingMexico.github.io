@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.single {
+    padding: 5% 0 0 0;
+}
+
 .kickstarter {
     background-color: black !important;
     padding: 0;
@@ -41,6 +45,7 @@
     color: #FFFFFF;
     box-sizing: border-box;
 }
+
 
 .darker h2, p{
     color: white;
