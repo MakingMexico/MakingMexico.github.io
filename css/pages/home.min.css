@@ -1,0 +1,318 @@
+/*body, .portafolio-section, .clients-section {
+    background: #192242
+}
+
+.home-mask {
+    background-image: -webkit-linear-gradient(3deg, #15bdde, #5268c1);
+    background-image: linear-gradient(87deg, #15bdde, #5268c1)
+}
+
+.home-mask .mask {
+    background-image: -webkit-linear-gradient(top, #070c20, #192242);
+    background-image: linear-gradient(to bottom, #070c20, #192242)
+}*/
+
+
+/* Here you specify the typography by Google Fonts */
+
+body {
+    font-family: 'Montserrat', serif;
+}
+
+
+/* Class to apply the persian-green color of the original logo*/
+
+.persian-green {
+    background-color: #12A79C !important;
+}
+
+.persian-green-text {
+    color: #12A79C !important;
+}
+
+nav .xlogo {
+    padding-top: 5px;
+    max-height: 3.8rem;
+    ;
+}
+
+a.mysvg:after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.transparencia {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.myspace {
+    padding-top: 4rem;
+}
+
+.myspace-tittle {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.myspace-div {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.myspace-top {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.myspace-bottom {
+    padding-bottom: 2em;
+}
+
+.myborder {
+    border-radius: 10px;
+}
+
+.card-element {
+    background-image: -webkit-linear-gradient(75deg, #1b295b, #5268c1);
+    background-image: linear-gradient(75deg, #1b295b, #5268c1);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-super div {
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 1rem
+}
+
+.mydivHeader {
+    position: relative;
+}
+
+.myimage-float1 {
+    position: absolute;
+    top: 2em;
+    left: -10em;
+    /*top:  120px;
+  left: 150px;*/
+}
+
+.myimage-float2 {
+    position: absolute;
+    top: 12em;
+    right: -10em;
+}
+
+.myimage-float1a {
+    position: absolute;
+    top: 10em;
+    left: -10em;
+}
+.myimage-float1b {
+    position: absolute;
+    top: 4.4em;
+    left: -2.2em;
+}
+.myimage-float1c {
+    position: absolute;
+    top: 0.1em;
+    left: -6.2em;
+}
+
+.myp {
+    font-size: 1.2em;
+}
+
+.mycard-panel {
+    padding-right: 24px;
+    padding-bottom: 41px;
+    padding-left: 24px;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.mycontainer {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 90%;
+}
+
+.myhoverable:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #ffffff !important;
+}
+
+.myhoverable-png:hover {
+    -webkit-filter: brightness(1%) invert(100%);
+    filter: brightness(1%) invert(100%);
+}
+
+.myopacity{
+  opacity: 80%;
+}
+
+.title-hero {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.title-hero {
+    font-size: 2.5rem
+}
+
+@media only screen and (min-width: 50px) {
+    .title-hero {
+        font-size: 2.5rem
+    }
+    .myimage-float1 {
+        top: -0.1em;
+        left: -4.5em;
+        width: 8em;
+    }
+    .myimage-float2 {
+        top: 18em;
+        right: -5em;
+        width: 8em;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    .title-hero {
+        font-size: 2.5rem
+    }
+    .myimage-float1 {
+        top: -0.1em;
+        left: -5.5em;
+        width: 8em;
+    }
+    .myimage-float2 {
+        top: 18em;
+        right: -6em;
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .title-hero {
+        font-size: 3.5rem
+    }
+    .myimage-float1 {
+        top: 1em;
+        left: -7em;
+        width: 10.8em;
+    }
+    .myimage-float2 {
+        top: 24em;
+        right: -7em;
+        width: 11em;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .title-hero {
+        font-size: 3.5rem
+    }
+    .myimage-float1 {
+        top: 3em;
+        left: -7em;
+        width: 15em;
+    }
+    .myimage-float2 {
+        top: 20em;
+        right: -7.5em;
+        width: 13em;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .title-hero {
+        font-size: 4rem
+    }
+    .myimage-float1 {
+        top: 3em;
+        left: -8em;
+        width: 17.5em;
+    }
+    .myimage-float2 {
+        top: 23em;
+        right: -8.5em;
+        width: 15em;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .title-hero {
+        font-size: 4.5rem
+    }
+    .myimage-float1 {
+        top: 3em;
+        left: -10em;
+        width: 20em;
+    }
+    .myimage-float2 {
+        top: 24em;
+        right: -10em;
+        width: 17.5em;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .title-hero {
+        font-size: 5rem
+    }
+    .myimage-float1 {
+        top: 4em;
+        left: -10em;
+    }
+    .myimage-float2 {
+        top: 29em;
+        right: -10em;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .title-hero {
+        font-size: 5rem
+    }
+    .myimage-float1 {
+        top: 3em;
+        left: -10em;
+        width: 20em;
+    }
+    .myimage-float2 {
+        top: 22em;
+        right: -10em;
+        width: 17.5em;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    .title-hero {
+        font-size: 5.5rem
+    }
+    .myimage-float1 {
+        top: 4em;
+        left: -10em;
+        width: 22.5em;
+    }
+    .myimage-float2 {
+        top: 26em;
+        right: -10em;
+        width: 20em;
+    }
+}
+
+
+
+
+/* Shorthand version */
+.myrotate {
+
+  -webkit-animation-iteration-count: 3;
+}
