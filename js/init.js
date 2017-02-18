@@ -9,6 +9,8 @@ var options = [
   Materialize.scrollFire(options);
 
   $(document).ready(function(){
+
+      $('.scrollspy').scrollSpy();
       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
       $('.modal').modal();
 
@@ -16,7 +18,10 @@ var options = [
       var scrollorama = $.scrollorama({
           blocks:'.scrollblock'
       });
-      scrollorama.animate('#rotate-gear-1a',{ duration: 800, delay: -100, property: 'rotate', start: 360 });
-      scrollorama.animate('#rotate-gear-1b',{ duration: 800, delay: -100, property: 'rotate', start: -360 });
-      scrollorama.animate('#rotate-gear-1c',{ duration: 800, delay: -100, property: 'rotate', start: 360 });
+      scrollorama.animate('#rotate-gear-1a',{ duration: 800, delay: -75, property: 'rotate', start: 360 });
+      scrollorama.animate('#rotate-gear-1b',{ duration: 650, delay: -75, property: 'rotate', start: -360 });
+      scrollorama.animate('#rotate-gear-1c',{ duration: 480, delay: -75, property: 'rotate', start: 360 });
+      scrollorama.animate('#rotate-gear-2a',{ duration: 800, delay: -75, property: 'rotate', start: -360 });
+      scrollorama.animate('#rotate-gear-2b',{ duration: 650, delay: -75, property: 'rotate', start: 360 });
+      scrollorama.animate('#rotate-gear-2c',{ duration: 480, delay: -75, property: 'rotate', start: -360 });
     });

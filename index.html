@@ -5,8 +5,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
     <title>Making México</title>
-    <meta name="description" content="Adquiere conocimiento con los cursos que otorgamos y lleva a cabo tus ideas y proyectos para hacerlos realidad.">
-    <meta name="keywords" content="software, tecnología, hackaton, meetup, startup, cursos, talleres, programadores, freelance">
+    <meta name="description" content="Estamos enfocados en la difusión de la cultura hacker, maker y más aportes tecno-científicos para acercar las nuevas tecnologías a todo tipo de comunidad.">
+    <meta name="keywords" content="software, tecnología, hackaton, meetup, startup, cursos, talleres, programadores, python, ruby">
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,7 +21,7 @@
         <!-- Nav -->
         <nav class="top-nav persian-green" role="navigation">
             <div class="nav-wrapper container">
-                <a href="/" class="brand-logo"><img class="xlogo" src="img/makingmex/logommx3.png" alt=""></a>
+                <a href="/" class="brand-logo sr"><img class="xlogo" src="img/makingmex/logommx3.png" alt=""></a>
                 <a href="#modalopc" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <a href="#modalopc" class="right hide-on-med-and-down btn-floating btn-large halfway-fab waves-effect waves-light indigo accent-3">
                     <i class="material-icons">menu</i>
@@ -33,24 +33,36 @@
     <!-- Main -->
     <div id="main">
         <div class="section">
-            <div class="container z-depth-5 indigo darken-3 myborder mydivHeader">
-                <div class="row center">
-                    <div class="col s12 m2 l2">
-                        <div class="myimage-float1">
-                            <img class="responsive-img" src="img/makingmex/gear1.png">
-                        </div>
-                    </div>
+            <div class="container z-depth-5 indigo darken-2 myborder mydivHeader">
+                <div class="row center scrollblock">
+                  <div class="col s12 m2 l2">
+                      <div class="sr-blocks myimage-float1ai">
+                          <img id="rotate-gear-1a" class="responsive-img" src="img/gears/gear1.svg">
+                      </div>
+                      <div class="sr-blocks myimage-float1bi">
+                          <img id="rotate-gear-1b" class="responsive-img" src="img/gears/gear2.svg">
+                      </div>
+                      <div class="sr-blocks myimage-float1ci">
+                          <img id="rotate-gear-1c" class="responsive-img" src="img/gears/gear3.svg">
+                      </div>
+                  </div>
                     <div class="col s12 m8 l8">
-                        <h1 class="header center title-hero white-text myspace-tittle">El lugar en donde las ideas se vuelven realidad</h1>
+                        <h1 class="header center title-hero white-text myspace-tittle sr">El lugar en donde las ideas se vuelven realidad</h1>
                     </div>
                     <div class="col s12 m2 l2">
-                        <div class="myimage-float2">
-                            <img class="responsive-img" src="img/makingmex/gear2.png">
+                        <div class="sr-blocks myimage-float2ai">
+                            <img id="rotate-gear-2a" class="responsive-img" src="img/gears/gear4.svg">
+                        </div>
+                        <div class="sr-blocks myimage-float2bi">
+                            <img id="rotate-gear-2b" class="responsive-img" src="img/gears/gear5.svg">
+                        </div>
+                        <div class="sr-blocks myimage-float2ci">
+                            <img id="rotate-gear-2c" class="responsive-img" src="img/gears/gear6.svg">
                         </div>
                     </div>
                 </div>
-                <div class="row center myspace-bottom">
-                    <a href="#" id="conocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Conócenos</a>
+                <div class="row center myspace-bottom sr">
+                    <a href="#conocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Conócenos</a>
                 </div>
 
 
@@ -58,25 +70,24 @@
                 <div id="modalopc" class="modal indigo darken-2">
                     <div class="modal-content mycontainer myspace-tittle">
                         <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
-
                         <div class="row center myspace-top">
                             <div class="col s12 m4">
-                                <a href="#" id="conocenos" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Inicio</a>
+                                <a href="#" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Inicio</a>
                             </div>
                             <div class="col s12 m4">
-                                <a href="#" id="copadding: 24px;nocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Nosotros</a>
+                                <a href="#conocenos" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Nosotros</a>
                             </div>
                             <div class="col s12 m4">
-                                <a href="#" id="conocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Cursos</a>
+                                <a href="#cursos" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Cursos</a>
                             </div>
 
                         </div>
                         <div class="row center myspace-top">
                             <div class="col s12 m6">
-                                <a href="#" id="conocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Conocenos</a>
+                                <a href="#conocenos" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Conocenos</a>
                             </div>
                             <div class="col s12 m6">
-                                <a href="#" id="conocenos" class="btn-large waves-effect waves-light indigo accent-3 hoverable">Contactanos</a>
+                                <a href="#contacto" class="modal-action modal-close btn-large waves-effect waves-light indigo accent-3 hoverable">Contactanos</a>
                             </div>
                         </div>
                     </div>
@@ -86,16 +97,16 @@
         </div>
     </div>
 
-    <section id="conocenos">
+    <section id="conocenos" class="section scrollspy">
         <div class="container myspace white-text">
-            <h2 class="center-align">Nosotros</h2>
+            <h2 class="center-align sr">Nosotros</h2>
             <div class="row">
                 <div class="col s12 m5 center indigo myborder z-depth-5">
-                    <h3>Misión</h3>
+                    <h3 class="sr">Misión</h3>
                     <div class="card-panel">
-                        <div class="divider"></div>
+                        <div class="sr divider"></div>
                         <br><br>
-                        <p class="myp">Estamos enfocados en la difusión de la cultura hacker, maker y más aportes tecno-científicos para acercar las nuevas tecnologías a todo tipo de comunidad especialmente en zonas de difícil acceso a este tipo de conocimiento, llevando
+                        <p class="myp sr-reset">Estamos enfocados en la difusión de la cultura hacker, maker y más aportes tecno-científicos para acercar las nuevas tecnologías a todo tipo de comunidad especialmente en zonas de difícil acceso a este tipo de conocimiento, llevando
                             a cabo ideas y proyectos dándoles un espacio donde puedan desarrollarse y convertirse en una realidad.</p>
                     </div>
                 </div>
@@ -103,32 +114,32 @@
                     <p></p>
                 </div>
                 <div class="col s12 m5 center indigo myborder z-depth-5">
-                    <h3>Visión</h3>
+                    <h3 class="sr">Visión</h3>
                     <div class="mycard-panel">
-                        <div class="divider"></div>
+                        <div class="sr divider"></div>
                         <br><br><br>
-                        <p class="myp">Al año de haber iniciado con los cursos esperamos tener de aval a varias comunidades de developers y algunas startups, para así poder crearnos prestigio con nuestros cursos y talleres impartidos en Making México.</p>
+                        <p class="myp sr-reset">Al año de haber iniciado con los cursos esperamos tener de aval a varias comunidades de developers y algunas startups, para así poder crearnos prestigio con nuestros cursos y talleres impartidos en Making México.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="cursos">
+    <section id="cursos" class="section scrollspy">
         <div class="mycontainer myspace white-text">
-            <h2 class="center-align">Cursos</h2>
+            <h2 class="center-align sr">Cursos</h2>
             <div class="indigo myborder z-depth-5">
                 <div class="mycontainer myspace-div">
                     <div class="row">
-                        <div class="col s12 m4 center">
+                        <div class="col s12 m4 center sr">
                             <img class="mywidth responsive-img" src="img/makingmex/logo-python.png">
                         </div>
-                        <div class="col s12 m8">
+                        <div class="col s12 m8 sr">
                             <h3>Curso de Python</h3>
                             <div class="divider"></div><br>
-                            <p class="myp">El curso de Python te lleva desde 0 hasta un nivel intermedio-avanzado pasando por lo básico como tipo de datos, de operadores pasando por la resolución de algoritmos de alta complejidad hasta comprender la programación orientada
+                            <p class="myp sr-reset">El curso de Python te lleva desde 0 hasta un nivel intermedio-avanzado pasando por lo básico como tipo de datos, de operadores pasando por la resolución de algoritmos de alta complejidad hasta comprender la programación orientada
                                 a objetos.</p>
-                            <a href="#" id="python" class="btn waves-effect waves-light indigo accent-3 hoverable right">ver más</a>
+                            <a href="python.html" id="python" class="btn waves-effect waves-light indigo accent-3 hoverable right">ver más</a>
                         </div>
                     </div>
                 </div>
@@ -137,20 +148,20 @@
             <div class="indigo myborder z-depth-5">
                 <div class="mycontainer myspace-div">
                     <div class="row">
-                        <div class="col s12 m8 hide-on-small-only">
+                        <div class="col s12 m8 hide-on-small-only sr">
                             <h3>Curso de Ruby</h3>
                             <div class="divider"></div><br>
-                            <p class="myp">El curso de Ruby te enseñará desde lo básico de la programación como la sintaxis de este lenguaje, llevarte a la creación de tus propias funciones hasta que puedas crear y utilizar objetos para la resolución de algoritmos.</p>
+                            <p class="myp sr-reset">El curso de Ruby te enseñará desde lo básico de la programación como la sintaxis de este lenguaje, llevarte a la creación de tus propias funciones hasta que puedas crear y utilizar objetos para la resolución de algoritmos.</p>
                             <a href="#" id="python" class="btn waves-effect waves-light indigo accent-3 hoverable left">ver más</a>
                         </div>
-                        <div class="col s12 m4 center">
+                        <div class="col s12 m4 center sr">
                             <img class="responsive-img" src="img/makingmex/logo-ruby.png">
                         </div>
-                        <div class="col s12 m8 hide-on-large-only hide-on-med-only">
+                        <div class="col s12 m8 hide-on-large-only hide-on-med-only sr">
                             <h3>Curso de Ruby</h3>
                             <div class="divider"></div>
-                            <p class="myp">El curso de Ruby te enseñará desde lo básico de la programación como la sintaxis de este lenguaje, llevarte a la creación de tus propias funciones hasta que puedas crear y utilizar objetos para la resolución de algoritmos.</p>
-                            <a href="#" id="python" class="btn waves-effect waves-light indigo accent-3 hoverable left">ver más</a>
+                            <p class="myp sr-reset">El curso de Ruby te enseñará desde lo básico de la programación como la sintaxis de este lenguaje, llevarte a la creación de tus propias funciones hasta que puedas crear y utilizar objetos para la resolución de algoritmos.</p>
+                            <a href="ruby.html" id="python" class="btn waves-effect waves-light indigo accent-3 hoverable left">ver más</a>
                         </div>
                     </div>
                 </div>
@@ -158,16 +169,16 @@
         </div>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="section scrollspy">
         <div class="mycontainer myspace white-text">
-            <h2 class="center-align">Contacto</h2>
+            <h2 class="center-align sr">Contacto</h2>
             <div class="indigo myborder z-depth-5">
                 <div class="mycontainer myspace-top">
                     <div class="row">
-                        <div class="col s12 m4 center">
+                        <div class="col s12 m4 center sr">
                             <img class="responsive-img" src="img/makingmex/logo.png">
                         </div>
-                        <div class="col s12 m8 center">
+                        <div class="col s12 m8 center sr-reset">
                             <br>
                             <p class="flow-text white-text">Si te interesa o quieres saber más sobre los cursos puedes mandarnos un mensaje</p>
                             <p class="flow-text persian-green-text">makingmex@gmail.com</p>
@@ -183,20 +194,20 @@
 
     <footer class="page-footer indigo darken-2">
         <div class="container">
-            <div class="row center">
+            <div class="row center sr-blocks">
                 <a href="/"><img class="brand-logo responsive-img myhoverable-png" src="img/makingmex/logo-green.png" alt="MAKING MÉXICO"></a>
             </div>
             <div class="row center">
 
-                <a href="https://www.facebook.com/MakingMex"><i class="fa fa-facebook-square fa-3x persian-green-text myhoverable" aria-hidden="true"></i></a> &nbsp;&nbsp;
-                <a href="https://twitter.com/makingmex" <i class="fa fa-twitter-square fa-3x persian-green-text myhoverable" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/MakingMex"><i class="fa fa-facebook-square fa-3x persian-green-text myhoverable sr-blocks" aria-hidden="true"></i></a> &nbsp;&nbsp;
+                <a href="https://twitter.com/makingmex" <i class="fa fa-twitter-square fa-3x persian-green-text myhoverable sr-blocks" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
 
         <!-- FOOTER  -->
         <div class="footer-copyright center">
-            <div class="container">
+            <div class="container sr-reset">
                 Todos los derechos reservados para <a class="indigo-text text-lighten-3" href="/"> Making México</a> 2017.
             </div>
         </div>
@@ -207,7 +218,9 @@
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
-
+    <script src="js/interactivity/scrollreveal.js"></script>
+    <script src="js/interactivity/scroll-reveal.js"></script>
+    <script src="js/scrollrama/jquery.scrollorama.js"></script>
 </body>
 
 </html>
