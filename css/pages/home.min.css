@@ -197,7 +197,7 @@ a.mysvg:after {
 .mybanner {
   position: fixed;
   width: 50%;
-  right: 0.5em;
+  right: -5.8em;
   /*
   position: relative;
   top: -35em;
